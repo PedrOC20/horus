@@ -1,0 +1,245 @@
+.banner {
+  // background-color: red;
+  background-image: url('../../assets/background_home.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 576px) {
+    text-align: center;
+  }
+
+  .informations {
+    
+    .information {
+
+      h1 {
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+
+        @media screen and (min-width: 993px) {
+          font-size: 40px;
+          margin-top: 50px;
+        }
+
+        @media screen and (max-width: 992px) {
+          font-size: 36px;
+          margin-top: 50px;
+        }
+
+        @media screen and (max-width: 768px) {
+          font-size: 32px;
+          margin-top: 50px;
+        }
+
+        @media screen and (max-width: 640px) {
+          font-size: 28px;
+          margin-top: 50px;
+        }
+
+        @media screen and (max-width: 576px) {
+          font-size: 28px;
+          margin-top: 50px;
+        }
+
+        @media screen and (max-width: 466px) {
+          font-size: 24px;
+          margin-top: 50px;
+        }
+
+        @media screen and (max-width: 399px) {
+          font-size: 20px;
+          margin-top: 50px;
+        }
+  
+        @media screen and (max-width: 330px) {
+          font-size: 18px;
+          margin-top: 50px;
+        }
+      }
+  
+      p {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-weight: 900;
+        line-height: 10px;
+
+        @media screen and (min-width: 993px) {
+          font-size: 26px;
+        }
+
+        @media screen and (max-width: 992px) {
+          font-size: 23px;
+        }
+
+        @media screen and (max-width: 768px) {
+          font-size: 20px;
+        }
+
+        @media screen and (max-width: 640px) {
+          font-size: 17px;
+        }
+  
+        @media screen and (max-width: 576px) {
+          font-size: 17px;
+        }
+
+        @media screen and (max-width: 466px) {
+          font-size: 15px;
+        }
+
+        @media screen and (max-width: 399px) {
+          font-size: 12px;
+        }
+
+        @media screen and (max-width: 330px) {
+          font-size: 10px;
+        }
+      }
+
+      p:first-of-type {
+        margin-top: 25px;
+      }
+    }
+
+    .app-information {
+      .app-buttons {
+        @media screen and (min-width: 577px) {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+        }
+
+        @media screen and (max-width: 576px) {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+
+        @media screen and (max-width: 330px) {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .android-button {
+          @media screen and (min-width: 577px) {
+            margin-left: 20px;
+          }
+
+          @media screen and (max-width: 330px) {
+            margin-top: 20px;
+          }
+        }
+      }
+
+      .app-title {
+      
+        h1 {
+          font-family: 'Bebas Neue', cursive;
+          color: white;
+          font-size: 38px;
+
+          @media screen and (min-width: 993px) {
+            font-size: 40px;
+            margin-top: 30px;
+          }
+
+          @media screen and (max-width: 992px) {
+            font-size: 36px;
+            margin-top: 30px;
+          }
+
+          @media screen and (max-width: 768px) {
+            font-size: 32px;
+            margin-top: 30px;
+          }
+
+          @media screen and (max-width: 640px) {
+            font-size: 28px;
+            margin-top: 30px;
+          }
+
+          @media screen and (max-width: 576px) {
+            font-size: 28px;
+            margin-top: 30px;
+          }
+
+          @media screen and (max-width: 466px) {
+            font-size: 24px;
+            margin-top: 30px;
+          }
+          
+          @media screen and (max-width: 399px) {
+            font-size: 20px;
+            margin-top: 30px;
+          }
+
+          @media screen and (max-width: 330px) {
+            font-size: 18px;
+            margin-top: 40px;
+          }
+        }
+    
+        p {
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          font-size: 22.5px;
+          font-weight: 900;
+
+          @media screen and (min-width: 993px) {
+            font-size: 26px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+          }
+
+          @media screen and (max-width: 992px) {
+            font-size: 23px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+          }
+
+          @media screen and (max-width: 768px) {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+          }
+
+          @media screen and (max-width: 640px) {
+            font-size: 17px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+          }
+
+          @media screen and (max-width: 576px) {
+            font-size: 17px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+          }
+
+          @media screen and (max-width: 466px) {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+          }
+
+          @media screen and (max-width: 399px) {
+            font-size: 12px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+          }
+
+          @media screen and (max-width: 330px) {
+            font-size: 10px;
+            margin-top: 0px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}

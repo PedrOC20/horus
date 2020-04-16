@@ -1,0 +1,149 @@
+.card-photo {
+  background-image: url('../../assets/background_card_photo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 200px;
+  position: relative;
+
+  .photo-info {
+    padding-top: 50px;
+
+    @media screen and (min-width:769px) {
+      display: flex;
+      align-items: flex-start;
+      padding-left: 30px;
+      padding-bottom: 30px;
+      margin-bottom: 40px;
+    }
+
+    @media screen and (max-width:768px) {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    .players-photo {
+      @media screen and (max-width:768px) {
+        margin-top: 60px;
+      }
+    }
+
+    .info {
+      @media screen and (min-width:769px) {
+        margin-left: 20px;
+      }
+
+      @media screen and (max-width:768px) {
+        text-align: center;
+      }
+
+      h1 {
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        line-height: 20px;
+
+        @media screen and (min-width:993px) {
+          font-size: 42px;
+        }
+  
+        @media screen and (max-width:992px) {
+          font-size: 32px;
+        }
+  
+        @media screen and (max-width:768px) {
+          font-size: 44px;
+        }
+  
+        @media screen and (max-width:640px) {
+          font-size: 40px;
+        }
+  
+        @media screen and (max-width:576px) {
+          font-size: 36px;
+        }
+  
+        @media screen and (max-width:466px) {
+          font-size: 34px;
+        }
+  
+        @media screen and (max-width: 399px) {
+          font-size: 30px;
+        }
+  
+        @media screen and (max-width: 330px) {
+          font-size: 26px;
+        }
+      }
+      
+      p:first-of-type {
+        margin-top: 60px;;
+      }
+  
+      p {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-weight: 900;
+        line-height: 10px;
+
+        @media screen and (min-width:993px) {
+          font-size: 22px;
+        }
+  
+        @media screen and (max-width:992px) {
+          font-size: 20px;
+        }
+  
+        @media screen and (max-width:768px) {
+          font-size: 30px;
+        }
+  
+        @media screen and (max-width:640px) {
+          font-size: 27px;
+        }
+  
+        @media screen and (max-width:576px) {
+          font-size: 24px;
+        }
+  
+        @media screen and (max-width:466px) {
+          font-size: 21px;
+        }
+  
+        @media screen and (max-width: 399px) {
+          font-size: 19px;
+        }
+  
+        @media screen and (max-width: 330px) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .image-photo {
+    @media screen and (min-width:993px) {
+      position: absolute;
+      top: 230px;
+      right: 150px;
+    }
+
+    @media screen and (max-width:992px) {
+      position: absolute;
+      top: 250px;
+      right: 0px;
+    }
+
+    @media screen and (max-width:768px) {
+      position: relative;
+      top: 80px;
+      left: 14px;
+    }
+
+    .iphone-photo {
+      @media screen and (max-width:768px) {
+        width: 100%
+      }
+    }
+  }
+}
