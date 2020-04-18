@@ -1,10 +1,13 @@
 .card-stadium {
   background-image: url('../../assets/background_card_stadium.png');
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
   margin-top: 200px;
+
+  @media screen and (max-width: 768px) {
+    background-size: cover;
+  }
 
   .info-stadium {
     padding-top: 50px;
@@ -113,7 +116,7 @@
       display: flex;
       justify-content: center;
       top: 150px;
-      left: 20px
+      left: 0;
     }
   }
 }

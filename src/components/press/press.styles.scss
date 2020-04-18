@@ -1,0 +1,29 @@
+.press {
+  margin-top: 250px;
+  
+  .title {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900;
+      line-height: 10px;
+    }
+
+    p:first-of-type {
+      margin-top: 30px;;
+    }
+    p:last-of-type {
+      margin-top: 30px;;
+    }
+  }
+}
