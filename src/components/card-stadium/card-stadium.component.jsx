@@ -2,7 +2,7 @@ import React from 'react';
 
 import './card-stadium.styles.scss';
 
-import { ReactComponent as IphoneStadium } from '../../assets/iphone_stadium.svg';
+import smartphoneStadium from '../../assets/smartphone_stadium.png';
 
 const CardStadium = () => (
   <div className='card-stadium'>
@@ -15,7 +15,7 @@ const CardStadium = () => (
     <p>Museum and everything you wish!</p>
   </div>
   <div className='image-stadium'>
-    <IphoneStadium />
+    <img src={smartphoneStadium} alt='SMARTPHONE STADIUM'></img>
   </div>
 </div>
 );

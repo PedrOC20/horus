@@ -7,6 +7,8 @@ import Projects from './components/projects/projects.component';
 import HowItWorks from './components/how-it-works/how-it-works.component';
 import TeamSports from './components/team-sports/team-sports.component';
 import Press from './components/press/press.component';
+import ContactUs from './components/contact-us/contact-us.component';
+import Footer from './components/footer/footer.component';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <HowItWorks />
       <TeamSports />
       <Press />
+      <ContactUs />
+      <Footer />
     </>
   );
 }

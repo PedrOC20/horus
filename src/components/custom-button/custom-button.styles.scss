@@ -8,4 +8,8 @@
   border-radius: 10px;
   border-color: black;
   margin-top: 30px;
+
+  @media screen and (max-width:992px) {
+    width: 100%;
+  }
 }

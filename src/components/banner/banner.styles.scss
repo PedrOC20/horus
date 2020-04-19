@@ -105,6 +105,22 @@
       p:first-of-type {
         margin-top: 25px;
       }
+
+      p:last-of-type {
+        padding-bottom: 30px;
+      }
+
+      .interest-button {
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border-color: black;
+        text-decoration: none;
+      }
     }
 
     .app-information {

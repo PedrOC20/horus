@@ -14,7 +14,7 @@ import { ReactComponent as BigArrow } from '../../assets/big_arrow.svg';
 import './team-sports.styles.scss';
 
 const TeamSports = () => (
-  <div className='team-sports'>
+  <div id='team-sports' className='team-sports'>
     <div className='title'>
       <h1>WHAT'S IN IT FOR YOU AS A SPORTS TEAM?</h1>
       <p>LADS COLLECTIBLES are a fun, engaging way to be part of the Sports Team. By accessing</p>

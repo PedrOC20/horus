@@ -2,8 +2,8 @@ import React from 'react';
 
 import './card-lad.styles.scss';
 
-import { ReactComponent as CardLuisao } from '../../assets/card_luisao.svg';
-import { ReactComponent as Smartphone } from '../../assets/smartphone.svg';
+import cardLuisao from '../../assets/card_luisao.png';
+import smartphoneLuisao from '../../assets/smartphone_luisao.png';
 
 const CardLad = () => (
   <div className='card-lad'>
@@ -16,8 +16,8 @@ const CardLad = () => (
       <p>other special ocasions!</p>
     </div>
     <div className='image-lad'>
-      <Smartphone />
-      <CardLuisao />
+      <img src={smartphoneLuisao} alt='SMARTPHONE LUISÃO'></img>
+      <img src={cardLuisao} alt='CARD AR LUISÃO'></img>
     </div>
   </div>
 );

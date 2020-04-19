@@ -3,13 +3,12 @@ import React from 'react';
 import './banner.styles.scss';
 
 import { ReactComponent as Icon } from '../../assets/icon.svg';
-import { ReactComponent as AndroidButton } from '../../assets/android_button.svg';
-import { ReactComponent as AppleButton } from '../../assets/apple.svg';
 
-import CustomButton from '../custom-button/custom-button.component';
+import appleButton from '../../assets/button_apple.png';
+import androidButton from '../../assets/button_android.png';
 
 const Banner = () => (
-  <div className='banner'>
+  <div id='banner' className='banner'>
     <div className='informations'>
       <div className='icon-container'>
         <Icon className='icon' />
@@ -21,7 +20,7 @@ const Banner = () => (
         <p>Do you want to find new and fun ways to interact with them?</p>
         <p>Well we might have something</p>
         <p>really interesting for you!</p>
-        <CustomButton>I'M INTERESTED</CustomButton>
+        <a href='#contact' className='interest-button'>I'M INTERESTED</a>
       </div>
       <div className='app-information'>
         <div className='app-title'>
@@ -29,8 +28,8 @@ const Banner = () => (
           <p>Be the first to live the AR experience!</p>
         </div>
         <div className='app-buttons'>
-          <a href='https://apps.apple.com/us/app/bbox-sports/id1491379643' target='_blank' rel="noopener noreferrer"><AppleButton /></a>
-          <a href='https://play.google.com/store/apps/details?id=com.ontop.bbox&hl=en_US' target='_blank' rel="noopener noreferrer" className='android-button'><AndroidButton /></a>
+          <a href='https://apps.apple.com/us/app/bbox-sports/id1491379643' target='_blank' rel="noopener noreferrer"><img src={appleButton} alt='IOS Button'></img></a>
+          <a href='https://play.google.com/store/apps/details?id=com.ontop.bbox&hl=en_US' target='_blank' rel="noopener noreferrer" className='android-button'><img src={androidButton} alt='Android Button'></img></a>
         </div>
       </div>
     </div>

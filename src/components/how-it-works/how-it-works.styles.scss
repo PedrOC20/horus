@@ -83,7 +83,7 @@
     @media screen and (min-width:769px) {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-evenly;
       margin-top: 100px;
     }
 
@@ -114,7 +114,18 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: 100px;
+    }
+
+    .image-small {
+      @media screen and (min-width:769px) {
+        display: none;
+      }
+    }
+
+    .image-big {
+      @media screen and (max-width:768px) {
+        display: none;
+      }
     }
 
     .image-rotate {

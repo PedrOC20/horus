@@ -2,13 +2,13 @@ import React from 'react';
 
 import './card-photo.styles.scss';
 
-import { ReactComponent as Players } from '../../assets/players.svg';
-import { ReactComponent as IphonePhoto } from '../../assets/iphone_photo.svg';
+import players from '../../assets/players.png';
+import smartphoneLuisao from '../../assets/smartphone_photo_luisao.png';
 
 const CardPhoto = () => (
   <div className='card-photo'>
     <div className='photo-info'>
-      <Players className='players-photo' />
+      <img src={players} alt='PLAYERS' className='players-photo'></img>
       <div className='info'>
         <h1>KNOW YOUR FANS BY MAKING THEM</h1>
         <h1>PART OF YOUR FAMILY!</h1>
@@ -17,7 +17,7 @@ const CardPhoto = () => (
       </div>
     </div>
     <div className='image-photo'>
-      <IphonePhoto className='iphone-photo' />
+      <img src={smartphoneLuisao} alt='SMARTPHONE LUISÃO' className='iphone-photo'></img>
     </div>
   </div>
 );

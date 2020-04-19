@@ -3,14 +3,17 @@ import React from 'react';
 import iconOne from '../../assets/icon1_how_it_works.png';
 import iconTwo from '../../assets/icon2_how_it_works.png';
 import iconThree from '../../assets/icon3_how_it_works.png';
-import watch from '../../assets/watch.png';
+import watchBig from '../../assets/watch.png';
+import watchSmall from '../../assets/watch_small.png';
 import smartphone from '../../assets/smartphone_how_it_works.png';
-import here from '../../assets/here.png';
+import hereBig from '../../assets/here.png';
+import hereSmall from '../../assets/here_small.png';
+
 
 import './how-it-works.styles.scss';
 
 const HowItWorks = () => (
-  <div className='how-it-works'>
+  <div id='how-it-works' className='how-it-works'>
     <div className='title'>
       <h1>BUT HOW DOES BBOX SPORTS AR WORKS?</h1>
       <p>It's as simple as 1, 2, 3!</p>
@@ -36,14 +39,16 @@ const HowItWorks = () => (
       </div>
     </div>
     <div className='images'>
-      <div className='image image-rotate'>
-        <img src={watch}  alt='WATCH'></img>
+      <div className='image'>
+        <img src={watchBig}  alt='WATCH' className='image-big'></img>
+        <img src={watchSmall}  alt='WATCH' className='image-small image-rotate'></img>
       </div>
       <div className='image'>
         <img src={smartphone} alt='SMARTPHONE'></img>
       </div>
-      <div className='image image-rotate'>
-        <img src={here} alt='HERE'></img>
+      <div className='image'>
+        <img src={hereBig} alt='HERE' className='image-big'></img>
+        <img src={hereSmall} alt='HERE' className='image-small image-rotate'></img>
       </div>
     </div>
   </div>
