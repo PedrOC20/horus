@@ -16,7 +16,7 @@ const Footer = () => (
       <a href='https://www.instagram.com/bboxsports/' alt='INSTAGRAM' target='_blank' rel="noopener noreferrer" className='image'><img src={instagram} alt='INSTAGRAM'></img></a>
       <a href='https://www.linkedin.com/company/bboxsports' alt='LINKEDIN' target='_blank' rel="noopener noreferrer" className='image'><img src={linkedin} alt='LINKEDIN'></img></a> 
     </div>
-    <p>COPYRIGHT BBOX SPORTS 2020</p>
+    <p>COPYRIGHT © BBOX SPORTS 2020</p>
   </div>
 );
 

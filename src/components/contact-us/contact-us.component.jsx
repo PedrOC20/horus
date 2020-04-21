@@ -19,6 +19,9 @@ class ContactUs extends React.Component{
 
   handleChange = event => {
     const { value, name } = event.target;
+    
+    console.log(name)
+    console.log(value)
 
     this.setState({ [name]: value })
   }
@@ -32,11 +35,15 @@ class ContactUs extends React.Component{
   
     let data = {
       email: this.state.email,
-      name: this.state.name,
-      message: this.state.message
+      first_name: this.state.name,
+      last_name: "",
+      message: this.state.message,
+      plan: "",
+      we_help: "",
+      subject: "Support Ticket"
     }
     
-    axios.post('API_URI', data)
+    axios.post('https://hermes.bboxsports.com/api/contact/save', data)
     .then( res => {
       this.setState({ sent: true }, this.resetForm())
     })
@@ -63,7 +70,7 @@ class ContactUs extends React.Component{
 
           <form onSubmit={this.formSubmit}>
             <FormInput 
-              name="YOU E-MAIL" 
+              name="email" 
               type="email" 
               handleChange={this.handleChange}
               value={this.state.email}
@@ -71,7 +78,7 @@ class ContactUs extends React.Component{
               required
             />
             <FormInput 
-              name="NAME" 
+              name="name" 
               type="text" 
               handleChange={this.handleChange}
               value={this.state.name}
@@ -79,7 +86,7 @@ class ContactUs extends React.Component{
               required 
             />
             <FormInput 
-              name="MESSAGE" 
+              name="message" 
               type="textarea" 
               handleChange={this.handleChange}
               value={this.state.message}
@@ -93,14 +100,22 @@ class ContactUs extends React.Component{
         </div>
         <div className='contact-info'>
           <h1>CONTACT INFO</h1>
-          <h3>ADDRESS</h3>
-          <p>Herengracht 420</p>
-          <p>1017 BZ Amsterdam</p>
-          <p>Netherlands</p>
-          <h3>PHONE</h3>
-          <p>+351 926 203 776</p>
-          <h3>EMAIL</h3>
-          <p>info@bboxsports.com</p>
+          <div className='contact-details'>
+            <div className='contact-addresss'>
+              <h3>ADDRESS</h3>
+              <p>Herengracht 420</p>
+              <p>1017 BZ Amsterdam</p>
+              <p>Netherlands</p>
+            </div>
+            <div className='contact-phone'>
+              <h3>PHONE</h3>
+              <p>+351 926 203 776</p>
+            </div>
+            <div className='contact-email'>
+              <h3>EMAIL</h3>
+              <p>info@bboxsports.com</p>
+            </div>
+          </div>
         </div>
       </div>
     )
