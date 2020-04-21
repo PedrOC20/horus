@@ -63,59 +63,57 @@ class ContactUs extends React.Component{
   render() {
     return(
       <div id='contact' className='contact-us'>
-        <div className='contact'>
-          <div className='contact-form'>
-            <h1>CONTACT FORM</h1>
-            <p>If you are interested in having your Sports Team engaged with your fans through Augmen-</p>
-            <p>ted Reality (AR), just drop us an email and we'll be happy to talk with you!</p>
+        <div className='contact-form'>
+          <h1>CONTACT FORM</h1>
+          <p>If you are interested in having your Sports Team engaged with your fans through Augmen-</p>
+          <p>ted Reality (AR), just drop us an email and we'll be happy to talk with you!</p>
 
-            <form onSubmit={this.formSubmit}>
-              <FormInput 
-                name="email" 
-                type="email" 
-                handleChange={this.handleChange}
-                value={this.state.email}
-                label='YOUR E-MAIL'
-                required
-              />
-              <FormInput 
-                name="name" 
-                type="text" 
-                handleChange={this.handleChange}
-                value={this.state.name}
-                label='NAME' 
-                required 
-              />
-              <FormInput 
-                name="message" 
-                type="textarea" 
-                handleChange={this.handleChange}
-                value={this.state.message}
-                label='MESSAGE' 
-                required 
-              />
-              <div className='buttons'>
-                <CustomButton type='submit'>SEND NOW</CustomButton>
-              </div>
-            </form>
-          </div>
-          <div className='contact-info'>
-            <h1>CONTACT INFO</h1>
-            <div className='contact-details'>
-              <div className='contact-addresss'>
-                <h3>ADDRESS</h3>
-                <p>Herengracht 420</p>
-                <p>1017 BZ Amsterdam</p>
-                <p>Netherlands</p>
-              </div>
-              <div className='contact-phone'>
-                <h3>PHONE</h3>
-                <p>+351 926 203 776</p>
-              </div>
-              <div className='contact-email'>
-                <h3>EMAIL</h3>
-                <p>info@bboxsports.com</p>
-              </div>
+          <form onSubmit={this.formSubmit}>
+            <FormInput 
+              name="email" 
+              type="email" 
+              handleChange={this.handleChange}
+              value={this.state.email}
+              label='YOUR E-MAIL'
+              required
+            />
+            <FormInput 
+              name="name" 
+              type="text" 
+              handleChange={this.handleChange}
+              value={this.state.name}
+              label='NAME' 
+              required 
+            />
+            <FormInput 
+              name="message" 
+              type="textarea" 
+              handleChange={this.handleChange}
+              value={this.state.message}
+              label='MESSAGE' 
+              required 
+            />
+            <div className='buttons'>
+              <CustomButton type='submit'>SEND NOW</CustomButton>
+            </div>
+          </form>
+        </div>
+        <div className='contact-info'>
+          <h1>CONTACT INFO</h1>
+          <div className='contact-details'>
+            <div className='contact-addresss'>
+              <h3>ADDRESS</h3>
+              <p>Herengracht 420</p>
+              <p>1017 BZ Amsterdam</p>
+              <p>Netherlands</p>
+            </div>
+            <div className='contact-phone'>
+              <h3>PHONE</h3>
+              <p>+351 926 203 776</p>
+            </div>
+            <div className='contact-email'>
+              <h3>EMAIL</h3>
+              <p>info@bboxsports.com</p>
             </div>
           </div>
         </div>
