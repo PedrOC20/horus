@@ -20,9 +20,9 @@ const Press = () => (
       <div className='image margin-top'>
         <img src={sapo} alt='Sapo'></img>
         <p>O clube do seu coração pode</p>
-        <p>revelar-se uma caixinha de sur-</p>
-        <p>presas e a BBox Sports quer certi-</p>
-        <p>ficar-se disso</p>
+        <p>revelar-se uma caixinha de</p>
+        <p>surpresas e a BBox Sports quer</p>
+        <p>certificar-se disso</p>
         <p>March 09, 2020</p>
       </div>
       <div className='image margin-top'>

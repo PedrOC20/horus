@@ -15,11 +15,13 @@ function App() {
     <>
       <Header />
       <Banner />
-      <Projects />
-      <HowItWorks />
-      <TeamSports />
-      <Press />
-      <ContactUs />
+      <div className='container'>
+        <Projects />
+        <HowItWorks />
+        <TeamSports />
+        <Press />
+        <ContactUs />
+      </div>
       <Footer />
     </>
   );

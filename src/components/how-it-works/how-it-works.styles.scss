@@ -99,6 +99,10 @@
       @media screen and (min-width:769px) {
         flex: 1;
         border-right: 3px solid #bfbfbf;
+
+        &:last-child {
+          border-right: none;
+        }
       }
 
       @media screen and (max-width:768px) {

@@ -15,7 +15,7 @@
     @media screen and (min-width:769px) {
       display: flex;
       align-items: flex-start;
-      padding-left: 30px;
+      padding-left: 70px;
       padding-bottom: 30px;
       margin-bottom: 40px;
     }
@@ -34,7 +34,7 @@
 
     .info {
       @media screen and (min-width:769px) {
-        margin-left: 20px;
+        margin-left: 50px;
       }
 
       @media screen and (max-width:768px) {
@@ -128,7 +128,7 @@
     @media screen and (min-width:993px) {
       position: absolute;
       top: 230px;
-      right: 150px;
+      right: 60px;
     }
 
     @media screen and (max-width:992px) {
