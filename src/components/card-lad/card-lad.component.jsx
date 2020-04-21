@@ -16,8 +16,8 @@ const CardLad = () => (
       <p>other special ocasions!</p>
     </div>
     <div className='image-lad'>
-      <img src={smartphoneLuisao} alt='SMARTPHONE LUISÃO'></img>
-      <img src={cardLuisao} alt='CARD AR LUISÃO'></img>
+      <img src={smartphoneLuisao} alt='SMARTPHONE LUISÃO' className='smartphone-luisao'></img>
+      <img src={cardLuisao} alt='CARD AR LUISÃO' className='card-luisao'></img>
     </div>
   </div>
 );

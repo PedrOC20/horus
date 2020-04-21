@@ -111,14 +111,24 @@
 
     @media screen and (min-width: 769px) {
       position: absolute;
-      top: 27px;
+      top: 50px;
       right: 73px;
     }
 
-    @media screen and (max-width: 768px) {
-      position: relative;
-      top: 100px;
-      right: 5px;
+    .smartphone-luisao {
+      @media screen and (max-width: 768px) {
+        position: relative;
+        top: 100px;
+        left: 10px;;
+      }
+    }
+
+    .card-luisao {
+      @media screen and (max-width: 768px) {
+        position: relative;
+        top: 100px;
+        right: 20px;;
+      }
     }
   }
 }

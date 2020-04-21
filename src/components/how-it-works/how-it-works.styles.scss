@@ -83,7 +83,7 @@
     @media screen and (min-width:769px) {
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: space-between;
       margin-top: 100px;
     }
 
@@ -95,6 +95,11 @@
 
     .instruction {
       text-align: center;
+
+      @media screen and (min-width:769px) {
+        flex: 1;
+        border-right: 3px solid #bfbfbf;
+      }
 
       @media screen and (max-width:768px) {
         margin-top: 100px;
@@ -125,6 +130,10 @@
     .image-big {
       @media screen and (max-width:768px) {
         display: none;
+      }
+
+      @media screen and (min-width:769px) {
+        margin-right: 40px;
       }
     }
 
