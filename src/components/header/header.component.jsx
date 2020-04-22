@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './header.styles.scss';
 
 import { ReactComponent as Logo } from '../../assets/logo.svg';
-import { ReactComponent as MenuIcon } from '../../assets/menu_icon.svg';
+import { ReactComponent as MenuIcon } from '../../assets/icon_list_mobile.svg';
 
 
 const Header = () => {
