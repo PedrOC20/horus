@@ -10,8 +10,8 @@ const Projects = () => (
   <div id='projects' className='projects'>
     <div className='project-info'>
       <h1>AUGMENTED REALITY FEATURES</h1>
-      <p>In order to enhance the experience of the fan, BBox Sports has developed AR features,</p>
-      <p>increasing the level of excitement towards the sports team</p>
+      <span>In order to enhance the experience of the fan, BBox Sports has developed AR features,
+      increasing the level of excitement towards the sports team</span>
     </div>
     <CardLad />
     <CardPhoto />

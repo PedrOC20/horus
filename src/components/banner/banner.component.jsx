@@ -18,8 +18,7 @@ const Banner = () => (
         <p>Are you feeling disconnected with your fans?</p>
         <p>Would you like to know more about them?</p>
         <p>Do you want to find new and fun ways to interact with them?</p>
-        <p>Well we might have something</p>
-        <p>really interesting for you!</p>
+        <p>Well we might have something really interesting for you!</p>
         <a href='#contact' className='interest-button'>I'M INTERESTED</a>
       </div>
       <div className='app-information'>

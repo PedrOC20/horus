@@ -65,8 +65,8 @@ class ContactUs extends React.Component{
       <div id='contact' className='contact-us'>
         <div className='contact-form'>
           <h1>CONTACT FORM</h1>
-          <p>If you are interested in having your Sports Team engaged with your fans through</p>
-          <p>Augmented Reality (AR), just drop us an email and we'll be happy to talk with you!</p>
+          <span>If you are interested in having your Sports Team engaged with your fans through
+          Augmented Reality (AR), just drop us an email and we'll be happy to talk with you!</span>
 
           <form onSubmit={this.formSubmit}>
             <FormInput 

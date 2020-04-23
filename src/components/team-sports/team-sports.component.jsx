@@ -17,9 +17,9 @@ const TeamSports = () => (
   <div id='team-sports' className='team-sports'>
     <div className='title'>
       <h1>WHAT'S IN IT FOR YOU AS A SPORTS TEAM?</h1>
-      <p>LADS COLLECTIBLES are a fun, engaging way to be part of the Sports Team. By accessing</p>
-      <p>Augmented Reality (AR) through this LADS the fans can take pictures with players, visit</p>
-      <p>stadiums get custom messages and share all this with friends across social media</p>
+      <span>LADS COLLECTIBLES are a fun, engaging way to be part of the Sports Team. By accessing
+      Augmented Reality (AR) through this LADS the fans can take pictures with players, visit
+      stadiums get custom messages and share all this with friends across social media</span>
     </div>
     <div className='images'>
       <div className='image-left'>

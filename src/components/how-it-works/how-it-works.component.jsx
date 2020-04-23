@@ -16,7 +16,7 @@ const HowItWorks = () => (
   <div id='how-it-works' className='how-it-works'>
     <div className='title'>
       <h1>BUT HOW DOES BBOX SPORTS AR WORKS?</h1>
-      <p>It's as simple as 1, 2, 3!</p>
+      <span>It's as simple as 1, 2, 3!</span>
     </div>
     <div className='instructions'>
       <div className='instruction'>
@@ -43,7 +43,7 @@ const HowItWorks = () => (
         <img src={watchBig}  alt='WATCH' className='image-big'></img>
         <img src={watchSmall}  alt='WATCH' className='image-small image-rotate'></img>
       </div>
-      <div className='image'>
+      <div className='image image-smartphone'>
         <img src={smartphone} alt='SMARTPHONE'></img>
       </div>
       <div className='image'>
