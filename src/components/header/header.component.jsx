@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 
 import './header.styles.scss';
 
@@ -16,12 +17,78 @@ const Header = () => {
         <Logo className='logo' />
       </div>
       <div className={`options ${mobileOpen ? "mobile-open" : ""}`}>
-        <a href='#banner' className='option feature'>FEATURES</a>
+        <Link
+          activeClass="active"
+          to="banner"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {2000}
+          className='option feature'
+        >
+          FEATURES
+        </Link>
+        <Link
+          activeClass="active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {1000}
+          className='option'
+        >
+          PROJECTS
+        </Link>
+        <Link
+          activeClass="active"
+          to="how-it-works"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {2000}
+          className='option'
+        >
+          HOW IT WORKS
+        </Link>
+        <Link
+          activeClass="active"
+          to="team-sports"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {3000}
+          className='option'
+        >
+          TEAM SPORTS
+        </Link>
+        <Link
+          activeClass="active"
+          to="press"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {4000}
+          className='option'
+        >
+          PRESS
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {5000}
+          className='option contact'
+        >
+          CONTACT US
+        </Link>
+        {/* <a href='#banner' className='option feature'>FEATURES</a>
         <a href='#projects' className='option'>PROJECTS</a>
         <a href='#how-it-works' className='option'>HOW IT WORKS</a>
         <a href='#team-sports' className='option'>TEAM SPORTS</a>
         <a href='#press' className='option'>PRESS</a>
-        <a href='#contact' className='option contact'>CONTACT US</a>
+        <a href='#contact' className='option contact'>CONTACT US</a> */}
       </div>
       <MenuIcon className='menu-icon' onClick={() => setMobileOpen(!mobileOpen)} />
     </div>
