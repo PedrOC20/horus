@@ -17,7 +17,7 @@ const Press = () => (
           <p>para fãs de futebol cabem</p>
           <p>numa caixa</p>
         </div>
-        <p>December 15, 2019</p>
+        <p className='image-date-dv'>December 15, 2019</p>
       </div>
       <div className='image margin-top'>
         <img src={sapo} alt='Sapo' className='image-block'></img>
@@ -27,7 +27,7 @@ const Press = () => (
           <p>surpresas e a BBox Sports quer</p>
           <p>certificar-se disso</p>
         </div>
-        <p>March 09, 2020</p>
+        <p className='image-date'>March 09, 2020</p>
       </div>
       <div className='image margin-top'>
         <img src={jornalEconomico} alt='Jornal Económico' className='image-block'></img>
@@ -37,7 +37,7 @@ const Press = () => (
           <p>querem levá-la aos adeptos do</p>
           <p>mundo inteiro</p>
         </div>
-        <p>January 08, 2020</p>
+        <p className='image-date'>January 08, 2020</p>
       </div>
     </div>
   </div>

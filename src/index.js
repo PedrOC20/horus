@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 import './index.css';
 import App from './App';
@@ -9,7 +10,9 @@ import App from './App';
 ReactDOM.render(
   <BrowserRouter>
     <React.StrictMode>
-      <App />
+      <ParallaxProvider>
+        <App />
+      </ParallaxProvider>
     </React.StrictMode>
   </BrowserRouter>,
   document.getElementById('root')

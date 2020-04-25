@@ -9,6 +9,7 @@ import { ReactComponent as MenuIcon } from '../../assets/icon_list_mobile.svg';
 
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [classActive, setClassActive] = useState(false);
   
   
   return(
@@ -24,7 +25,8 @@ const Header = () => {
           smooth={true}
           offset={-70}
           duration= {2000}
-          className='option feature'
+          onClick={() => setClassActive(!classActive)}
+          className={`option ${classActive ? "active" : "feature"}`}
         >
           FEATURES
         </Link>

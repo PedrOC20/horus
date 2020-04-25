@@ -8,14 +8,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 30px;
+  height: 1500px;
 
   @media screen and (max-width: 576px) {
     text-align: center;
   }
 
   .informations {
-    max-width: 80%;
     .information {
 
       h1 {
