@@ -9,14 +9,13 @@ import androidButton from '../../assets/button_android.png';
 
 import { Parallax } from 'react-scroll-parallax';
 
+
 const Banner = () => (
   <div id='banner' className='banner'>
     <div className='informations'>
-      <Parallax y={[-150, 235]} tagOuter="div">
-        <div className='icon-container'>
-          <Icon className='icon' />
-        </div>
-      </Parallax>
+      <div className='icon-container'>
+        <Icon className='icon' />
+      </div>
 
       <Parallax y={[150, -20]} tagOuter="div">
         <div className='information'>

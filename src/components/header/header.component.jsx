@@ -25,8 +25,8 @@ const Header = () => {
           smooth={true}
           offset={-70}
           duration= {2000}
-          onClick={() => setClassActive(!classActive)}
-          className={`option ${classActive ? "active" : "feature"}`}
+          className={`option ${classActive ? "active" : ""}`}
+          onClick={() => setClassActive(classActive)}
         >
           FEATURES
         </Link>
