@@ -13,9 +13,11 @@ const Projects = () => (
       <span>In order to enhance the experience of the fan, BBox Sports has developed AR features,
       increasing the level of excitement towards the sports team</span>
     </div>
-    <CardLad />
-    <CardPhoto />
-    <CardStadium />
+    <div className='project-cards'>
+      <CardLad />
+      <CardPhoto />
+      <CardStadium />
+    </div>
   </div>
 );
 

@@ -1,14 +1,13 @@
 .banner {
   // background-color: red;
-  background-image: url('../../assets/background_home.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  // background-image: url('../../assets/background_home.png');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1500px;
 
   @media screen and (max-width: 576px) {
     text-align: center;
