@@ -23,7 +23,7 @@ const Header = () => {
           to="banner"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration= {2000}
           className={`option ${classActive ? "active" : ""}`}
           onClick={() => setClassActive(classActive)}
@@ -35,7 +35,7 @@ const Header = () => {
           to="projects"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration= {1000}
           className='option'
         >
@@ -46,7 +46,7 @@ const Header = () => {
           to="how-it-works"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration= {2000}
           className='option'
         >
@@ -57,7 +57,7 @@ const Header = () => {
           to="team-sports"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration= {3000}
           className='option'
         >
@@ -68,7 +68,7 @@ const Header = () => {
           to="press"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-130}
           duration= {4000}
           className='option'
         >
@@ -79,7 +79,7 @@ const Header = () => {
           to="contact"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration= {5000}
           className='option contact'
         >
