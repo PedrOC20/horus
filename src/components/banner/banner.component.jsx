@@ -16,17 +16,17 @@ const Banner = () => (
     className='banner'
     id='banner'
     layers={[
-      {
-        image: '/assets/banner.png',
-        amount: 0.2,
-        props: {
-          style: {
-            backgroundSize: 'cover',
-            backgroundPosition: 'center center',
-            backgroundRepeat: 'no-repeat'
-          }
-        }
-      },
+      // {
+      //   image: '/assets/banner.png',
+      //   amount: 0.2,
+      //   props: {
+      //     style: {
+      //       backgroundSize: 'cover',
+      //       backgroundPosition: 'center center',
+      //       backgroundRepeat: 'no-repeat'
+      //     }
+      //   }
+      // },
       {
         image: '/assets/smartphone_banner.png',
         amount: 0.3,

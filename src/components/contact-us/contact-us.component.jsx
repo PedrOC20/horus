@@ -63,8 +63,8 @@ class ContactUs extends React.Component{
   render() {
     return(
       <div id='contact' className='contact-us'>
-        <div className='contact-form'>
-          <div className='container'>
+        <div className='container'>
+          <div className='contact-form'>
             <h1>CONTACT FORM</h1>
             <span>If you are interested in having your Sports Team engaged with your fans through
             Augmented Reality (AR), just drop us an email and we'll be happy to talk with you!</span>
