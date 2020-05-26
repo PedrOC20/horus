@@ -43,7 +43,7 @@ class ContactUs extends React.Component{
       subject: "Support Ticket"
     }
     
-    axios.post('https://hermes.bboxsports.com/api/contact/save', data)
+    axios.post('http://localhost:3000/users/sign_in', data)
     .then( res => {
       this.setState({ sent: true }, this.resetForm())
     })
