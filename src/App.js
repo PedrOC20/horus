@@ -10,19 +10,26 @@ import Press from './components/press/press.component';
 import ContactUs from './components/contact-us/contact-us.component';
 import Footer from './components/footer/footer.component';
 
-function App() {
-  return (
-    <>
-      <Header />
-      <Banner />
-      <Projects />
-      <HowItWorks />
-      <TeamSports />
-      <Press />
-      <ContactUs />
-      <Footer />
-    </>
-  );
+class App extends React.Component {
+
+  componentDidMount() {
+    document.title = 'Bbox Sports'
+  }
+  
+  render() {
+    return (
+      <>
+        <Header />
+        <Banner />
+        <Projects />
+        <HowItWorks />
+        <TeamSports />
+        <Press />
+        <ContactUs />
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default App;
