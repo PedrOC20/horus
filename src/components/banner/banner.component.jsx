@@ -5,8 +5,8 @@ import './banner.styles.scss';
 
 import { ReactComponent as Icon } from '../../assets/icon.svg';
 
-import appleButton from '../../assets/button_apple.png';
-import androidButton from '../../assets/button_android.png';
+import appleButton from '../../assets/button_apple_1.png';
+import androidButton from '../../assets/button_android_1.png';
 
 import { ParallaxBanner } from 'react-scroll-parallax';
 

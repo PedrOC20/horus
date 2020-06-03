@@ -149,6 +149,11 @@
         margin-bottom: 30px;
         padding-bottom: 20px;
 
+        img {
+          height: 42px;
+          width: 153px;
+        }
+
         @media screen and (min-width: 577px) {
           display: flex;
           flex-direction: row;
