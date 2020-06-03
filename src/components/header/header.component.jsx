@@ -10,8 +10,7 @@ import { ReactComponent as MenuIcon } from '../../assets/icon_list_mobile.svg';
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [classActive, setClassActive] = useState(false);
-  
-  
+
   return(
     <div className='header'>
       <div className='logo-container'>
